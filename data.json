@@ -1,0 +1,468 @@
+{
+   "ProductGroupTree":[
+      {
+         "Id":"EF6D1B0B-D6B8-43B5-AB51-7A5492FD055F",
+         "Name":"Dental Care and Oral Hygiene Products",
+         "Workflow":"FEA0636B-69BC-478B-AF61-302D9B6E20BF",
+         "SubGroups":[
+            {
+               "Id":"FEA0636B-69BC-478B-AF61-302D9B6E20BF",
+               "Name":"Dental Care Products",
+               "Workflow":null,
+               "SubGroups":[
+                  {
+                     "Id":"CC25FE8C-FB62-4D60-A67F-8127219D2E2F",
+                     "Name":"Toothbrush",
+                     "Workflow":"38116C03-232B-4F4A-900E-48B02339E977",
+                     "Products":[
+                        {
+                           "Id":"7A4641A7-72BF-4E4A-B87E-F172D60DAA6D",
+                           "Name":"Winnie Pooh Toothbrush",
+                           "ProductNumber":"11-056-01",
+                           "Instances":[
+                              {
+                                 "SerialNumber":"7843-34\\87**-\"fin\"",
+                                 "CustomerMail":"saridder@comcast.net"
+                              },
+                              {
+                                 "SerialNumber":"7853-37\\87**-\"fin\"",
+                                 "CustomerMail":"kohlis@verizon.net"
+                              }
+                           ]
+                        },
+                        {
+                           "Id":"1A7D29C2-50B2-4643-AE87-2C1D184801E0",
+                           "Name":"ToothBrushPro 2000",
+                           "ProductNumber":"11-398-01"
+                        },
+                        {
+                           "Id":"2D4B3D32-96AE-4072-84E3-1308A2852977",
+                           "Name":"PearlWhite Toothpaste",
+                           "ProductNumber":"11-287-02",
+                           "Instances":[
+                              {
+                                 "SerialNumber":"6543-21\\98**-\"qrs\"",
+                                 "CustomerMail":"nicktrig@hotmail.com"
+                              },
+                              {
+                                 "SerialNumber":"4321-09\\87**-\"tuv\"",
+                                 "CustomerMail":"bachmann@aol.com"
+                              },
+                              {
+                                 "SerialNumber":"9876-54\\32**-\"wxy\"",
+                                 "CustomerMail":"konst@mac.com"
+                              }
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "Id":"AE9B1A45-DA4B-4A60-8B29-593D28E8B27C",
+                     "Name":"Dental Floss",
+                     "Workflow":"38116C03-232B-4F4A-900E-48B02339E977",
+                     "Products":[
+                        {
+                           "Id":"A041FD6D-24E8-4A56-930D-139E44E3A92E",
+                           "Name":"FlossMaster 5000",
+                           "ProductNumber":"12-501-03",
+                           "Instances":[
+                              {
+                                 "SerialNumber":"3456-78\\90**-\"nop\"",
+                                 "CustomerMail":"solomon@verizon.net"
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "Id":"B3A35A2F-8AA3-4C36-9D76-1D077A27F86F",
+               "Name":"Oral Hygiene Products",
+               "Workflow":null,
+               "Products":[
+                  {
+                     "Id":"E8ACDF51-39E7-4B4E-BE72-3611D369E2BC",
+                     "Name":"MintyFresh Mouthwash",
+                     "ProductNumber":"21-702-01",
+                     "Instances":[
+                        {
+                           "SerialNumber":"8765-43\\21**-\"efg\"",
+                           "CustomerMail":"kwilliams@icloud.com"
+                        },
+                        {
+                           "SerialNumber":"2345-67\\89**-\"hij\"",
+                           "CustomerMail":"airship@verizon.net"
+                        },
+                        {
+                           "SerialNumber":"7890-12\\34**-\"klm\"",
+                           "CustomerMail":"liedra@me.com"
+                        }
+                     ]
+                  },
+                  {
+                     "Id":"D51577D0-EE79-4A19-A2C0-91434474D4D8",
+                     "Name":"HealthyGums Toothpaste",
+                     "ProductNumber":"21-390-02"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "Id":"C6A41A6E-836C-4F63-91F8-84E6B1108571",
+         "Name":"Cardiac Monitoring and Heart Health Products",
+         "Workflow":"F33B2DD4-4D8C-4D1A-A270-C76DE151F913",
+         "Products":[
+            {
+               "Id":"06E52C9A-6D42-43D2-BCDD-AEF9498A485A",
+               "Name":"CardioCheck Pro BP Monitor",
+               "ProductNumber":"31-342-01"
+            },
+            {
+               "Id":"890D345D-984F-4B70-BE41-D42BBE3A8759",
+               "Name":"HeartBeat Fitness Tracker",
+               "ProductNumber":"31-783-02",
+               "Instances":[
+                  {
+                     "SerialNumber":"9876-54\\32**-\"yza\"",
+                     "CustomerMail":"oechslin@optonline.net"
+                  },
+                  {
+                     "SerialNumber":"1234-56\\78**-\"bcd\"",
+                     "CustomerMail":"nwiger@aol.com"
+                  }
+               ]
+            },
+            {
+               "Id":"3D57FDDA-6EB5-4D82-9121-6B10BB6B53FC",
+               "Name":"CholesterolMaster Test Kit",
+               "ProductNumber":"31-190-03"
+            }
+         ]
+      },
+      {
+         "Id":"49D9FAFD-515D-4D2A-9F06-F996E250CF24",
+         "Name":"Endoscopy and Surgical Instruments",
+         "Workflow":"FEA0636B-69BC-478B-AF61-302D9B6E20BF",
+         "SubGroups":[
+            {
+               "Id":"794C5F4A-062B-45A2-946F-9A75C944CC97",
+               "Name":"Endoscopy Instruments",
+               "Workflow":"F33B2DD4-4D8C-4D1A-A270-C76DE151F913",
+               "SubGroups":[
+                  {
+                     "Id":"AD10F656-3C40-4CB9-A64E-2C1D2ED017C8",
+                     "Name":"Cameras",
+                     "Workflow":"F33B2DD4-4D8C-4D1A-A270-C76DE151F913",
+                     "Products":[
+                        {
+                           "Id":"B69F89CB-8C7D-429E-B26D-2CE1FA90B70D",
+                           "Name":"EndoScopePro 3000",
+                           "ProductNumber":"43-601-01",
+                           "Instances":[
+                              {
+                                 "SerialNumber":"3456-78\\90**-\"pqr\"",
+                                 "CustomerMail":"kohlis@verizon.net"
+                              },
+                              {
+                                 "SerialNumber":"6543-21\\98**-\"stu\"",
+                                 "CustomerMail":"plover@icloud.com"
+                              },
+                              {
+                                 "SerialNumber":"4321-09\\87**-\"vwx\"",
+                                 "CustomerMail":"gommix@yahoo.com"
+                              }
+                           ]
+                        },
+                        {
+                           "Id":"0A29F1A7-4B90-429C-A2CB-4C8B6FEC4D8F",
+                           "Name":"CamView HD Camera",
+                           "ProductNumber":"43-873-02",
+                           "Instances":[
+                              
+                           ]
+                        },
+                        {
+                           "Id":"DFBF040D-2F12-49A0-8D2A-745F7ECE1635",
+                           "Name":"Fujioptic EndoCam",
+                           "ProductNumber":"43-149-03",
+                           "Instances":[
+                              {
+                                 "SerialNumber":"7890-12\\34**-\"mno\"",
+                                 "CustomerMail":"pdbaby@live.com"
+                              }
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "Id":"F6FF26B1-B44D-465A-9C59-56E02DDA93F9",
+                     "Name":"Surgical Instruments",
+                     "Workflow":null,
+                     "Products":[
+                        {
+                           "Id":"C9D6B3E3-70A9-4CDA-895D-6D6E1CEACF10",
+                           "Name":"SurgiSharp Scalpel Set",
+                           "ProductNumber":"44-543-01"
+                        },
+                        {
+                           "Id":"E8E5D285-8C34-4594-9EFA-F5B4ECEA4D5D",
+                           "Name":"AstraGrip Forceps Kit",
+                           "ProductNumber":"44-123-02"
+                        },
+                        {
+                           "Id":"69E11051-2ECD-45D7-B761-76417D6F7F46",
+                           "Name":"EndoMaster Tower",
+                           "ProductNumber":"44-943-03",
+                           "Instances":[
+                              {
+                                 "SerialNumber":"5643-09\\87**-\"abc\"",
+                                 "CustomerMail":"galbra@comcast.net"
+                              },
+                              {
+                                 "SerialNumber":"1234-56\\78**-\"def\"",
+                                 "CustomerMail":"saridder@comcast.net"
+                              },
+                              {
+                                 "SerialNumber":"8765-43\\21**-\"ghi\"",
+                                 "CustomerMail":"tellis@icloud.com"
+                              },
+                              {
+                                 "SerialNumber":"2345-67\\89**-\"jkl\"",
+                                 "CustomerMail":"engelen@optonline.net"
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ],
+   "Workflows":[
+      {
+         "Id":"38116C03-232B-4F4A-900E-48B02339E977",
+         "Name":"Default Stocking",
+         "States":[
+            {
+               "Id":"76460296-EAA5-403F-A609-7CD4DFD3E05A",
+               "Title":"Stocked",
+               "Color":"#000000"
+            },
+            {
+               "Id":"70460F8B-0E06-473B-87A3-DA2B81692485",
+               "Title":"Delivered",
+               "Color":"#93C47D"
+            },
+            {
+               "Id":"CB75959D-798C-4DD5-9C19-778013CF6560",
+               "Title":"Returned",
+               "Color":"#000000"
+            },
+            {
+               "Id":"39225DAE-B456-469E-AD53-897A12E0160D",
+               "Title":"Scrapped",
+               "Color":"#ff0000"
+            }
+         ],
+         "Transitions":[
+            {
+               "Type":"http",
+               "From":"76460296-EAA5-403F-A609-7CD4DFD3E05A",
+               "To":"70460F8B-0E06-473B-87A3-DA2B81692485",
+               "Setup":{
+                  "Endpoint":"api.happyheal.com/v1/Workflow",
+                  "Body":"{\r\n    \"state\": \"stocked -> delivered\",\r\n    \"cust_name\": \"{{customername}}\",\r\n    \"cust_email\": \"{{customermail}}\",\r\n    \"product_number\": \"{{productnumber}}\",\r\n    \"serial_number\": \"{{sn}}\",\r\n    \"purchased_at\": \"{{purchasedate}}\"\r\n}"
+               }
+            },
+            {
+               "Type":"messagebox",
+               "From":"70460F8B-0E06-473B-87A3-DA2B81692485",
+               "To":"CB75959D-798C-4DD5-9C19-778013CF6560",
+               "Setup":{
+                  "Content":"Product {{type}}, {{sn}} has arrived"
+               }
+            },
+            {
+               "Type":"http",
+               "From":"CB75959D-798C-4DD5-9C19-778013CF6560",
+               "To":"76460296-EAA5-403F-A609-7CD4DFD3E05A",
+               "Setup":{
+                  "Endpoint":"api.happyheal.com/v1/Workflow",
+                  "Body":"{\r\n    \"state\": \"returned -> stocked\",\r\n    \"cust_name\": \"{{customername}}\",\r\n    \"cust_email\": \"{{customermail}}\",\r\n    \"product_number\": \"{{productnumber}}\",\r\n    \"serial_number\": \"{{sn}}\",\r\n    \"purchased_at\": \"{{purchasedate}}\"\r\n}"
+               }
+            },
+            {
+               "Type":"noaction",
+               "From":"CB75959D-798C-4DD5-9C19-778013CF6560",
+               "To":"39225DAE-B456-469E-AD53-897A12E0160D"
+            }
+         ]
+      },
+      {
+         "Id":"F33B2DD4-4D8C-4D1A-A270-C76DE151F913",
+         "Name":"Extended Stocking",
+         "States":[
+            {
+               "Id":"F33B2DD4-4D8C-4D1A-A270-C76DE151F913",
+               "Title":"Stocked",
+               "Color":"#000000"
+            },
+            {
+               "Id":"FCC90CFF-9819-4DD7-AEEE-DEF8A6F07518",
+               "Title":"Delivered",
+               "Color":"#93C47D"
+            },
+            {
+               "Id":"4B20C592-BA9C-4CE1-AC6B-13048A400C17",
+               "Title":"Reported broken",
+               "Color":"#CD9323"
+            },
+            {
+               "Id":"2DACD456-0D60-4950-ABD7-49C8CA1247E6",
+               "Title":"Scrapped",
+               "Color":"#FFA500"
+            },
+            {
+               "Id":"469A632F-CBC2-422C-9295-DC2C46A09E5E",
+               "Title":"Returning",
+               "Color":"#9FC5F8"
+            },
+            {
+               "Id":"CD3B962D-0278-4D4D-8FBE-A29DEDCA3CBD",
+               "Title":"Arrived",
+               "Color":"#000000"
+            },
+            {
+               "Id":"50A44BE0-AD0F-426F-A146-8132CEB2E682",
+               "Title":"Repaired",
+               "Color":"#F9CB9C"
+            }
+         ],
+         "Transitions":[
+            {
+               "Type":"http",
+               "From":"F33B2DD4-4D8C-4D1A-A270-C76DE151F913",
+               "To":"FCC90CFF-9819-4DD7-AEEE-DEF8A6F07518",
+               "Setup":{
+                  "Endpoint":"api.happyheal.com/v1/Workflow",
+                  "Body":"{\r\n    \"state\": \"stocked -> delivered\",\r\n    \"cust_name\": \"{{customername}}\",\r\n    \"cust_email\": \"{{customermail}}\",\r\n    \"product_number\": \"{{productnumber}}\",\r\n    \"serial_number\": \"{{sn}}\",\r\n    \"purchased_at\": \"{{purchasedate}}\"\r\n}"
+               }
+            },
+            {
+               "Type":"file",
+               "From":"FCC90CFF-9819-4DD7-AEEE-DEF8A6F07518",
+               "To":"4B20C592-BA9C-4CE1-AC6B-13048A400C17",
+               "Setup":{
+                  "Path":"c:\\productdata\\workflowA-345.txt",
+                  "Append":true,
+                  "Content":"{{customermail}} reported product {{type}}, {{sn}} as broken."
+               }
+            },
+            {
+               "Type":"noaction",
+               "From":"4B20C592-BA9C-4CE1-AC6B-13048A400C17",
+               "To":"2DACD456-0D60-4950-ABD7-49C8CA1247E6"
+            },
+            {
+               "Type":"mail",
+               "From":"4B20C592-BA9C-4CE1-AC6B-13048A400C17",
+               "To":"469A632F-CBC2-422C-9295-DC2C46A09E5E",
+               "Setup":{
+                  "From":"tk@symas.ch",
+                  "To":"un@niederer-engineering.ch",
+                  "Subject":"Product {{type}}, {{sn}} has been returned",
+                  "Body":"Dear receiver\n\nWe let you know, that the {{type}} have been returned to the factory.\n\nRegards\nHappyHeal"
+               }
+            },
+            {
+               "Type":"mail",
+               "From":"469A632F-CBC2-422C-9295-DC2C46A09E5E",
+               "To":"469A632F-CBC2-422C-9295-DC2C46A09E5E",
+               "Setup":{
+                  "From":"tk@symas.ch",
+                  "To":"un@niederer-engineering.ch",
+                  "Subject":"Product {{type}}, {{sn}} is returning",
+                  "Body":"Dear receiver\n\nWe let you know, that the {{type}} is already on the way back to the factory.\n\nRegards\nHappyHeal"
+               }
+            },
+            {
+               "Type":"messagebox",
+               "From":"469A632F-CBC2-422C-9295-DC2C46A09E5E",
+               "To":"CD3B962D-0278-4D4D-8FBE-A29DEDCA3CBD",
+               "Setup":{
+                  "Content":"Product {{type}}, {{sn}} has arrived"
+               }
+            },
+            {
+               "Type":"noaction",
+               "From":"CD3B962D-0278-4D4D-8FBE-A29DEDCA3CBD",
+               "To":"50A44BE0-AD0F-426F-A146-8132CEB2E682"
+            },
+            {
+               "Type":"http",
+               "From":"50A44BE0-AD0F-426F-A146-8132CEB2E682",
+               "To":"FCC90CFF-9819-4DD7-AEEE-DEF8A6F07518",
+               "Setup":{
+                  "Endpoint":"api.happyheal.com/v1/Workflow",
+                  "Body":"{\r\n    \"state\": \"repaired -> delivered\",\r\n    \"cust_name\": \"{{customername}}\",\r\n    \"cust_email\": \"{{customermail}}\",\r\n    \"product_number\": \"{{productnumber}}\",\r\n    \"serial_number\": \"{{sn}}\",\r\n    \"purchased_at\": \"{{purchasedate}}\"\r\n}"
+               }
+            }
+         ]
+      }
+   ],
+   "Users":[
+      {
+         "Username":"t.kehl",
+         "Password":"123abc",
+         "DisplayName":"Thomas Kehl"
+      },
+      {
+         "Username":"u.niederer",
+         "Password":"123abc",
+         "DisplayName":"Ueli Niederer"
+      },
+      {
+         "Username":"m.boller",
+         "Password":"123abc",
+         "DisplayName":"Micha Boller"
+      },
+      {
+         "Username":"m.wilson",
+         "Password":"SecurePwd12!",
+         "DisplayName":"Michael Wilson"
+      },
+      {
+         "Username":"s.miller",
+         "Password":"Passw0rd$",
+         "DisplayName":"Sarah Miller"
+      },
+      {
+         "Username":"d.roberts",
+         "Password":"P@ss1234",
+         "DisplayName":"David Roberts"
+      },
+      {
+         "Username":"l.anderson",
+         "Password":"Anderson#567",
+         "DisplayName":"Lisa Anderson"
+      },
+      {
+         "Username":"k.jackson",
+         "Password":"KJPass789!",
+         "DisplayName":"Karen Jackson"
+      },
+      {
+         "Username":"r.davis",
+         "Password":"SecurePW567",
+         "DisplayName":"Robert Davis"
+      },
+      {
+         "Username":"j.wright",
+         "Password":"JW!Password",
+         "DisplayName":"Jennifer Wright"
+      }
+   ]
+}
