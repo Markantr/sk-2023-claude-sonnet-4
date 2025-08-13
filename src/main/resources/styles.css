@@ -1,0 +1,231 @@
+/* HappyHeal Application Styles */
+
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* Button styles */
+.button {
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-padding: 8 16;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-opacity: 0.9;
+}
+
+.button:pressed {
+    -fx-background-color: derive(-fx-background-color, -10%);
+}
+
+/* Primary button */
+.button-primary {
+    -fx-background-color: #2c5aa0;
+    -fx-text-fill: white;
+}
+
+.button-primary:hover {
+    -fx-background-color: #1a4480;
+}
+
+/* Success button */
+.button-success {
+    -fx-background-color: #28a745;
+    -fx-text-fill: white;
+}
+
+.button-success:hover {
+    -fx-background-color: #218838;
+}
+
+/* Danger button */
+.button-danger {
+    -fx-background-color: #dc3545;
+    -fx-text-fill: white;
+}
+
+.button-danger:hover {
+    -fx-background-color: #c82333;
+}
+
+/* Text field styles */
+.text-field, .password-field {
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-border-color: #ced4da;
+    -fx-border-width: 1px;
+    -fx-padding: 8 12;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #2c5aa0;
+    -fx-border-width: 2px;
+}
+
+/* Table styles */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #dee2e6;
+    -fx-border-width: 1px;
+}
+
+.table-view .column-header {
+    -fx-background-color: #f8f9fa;
+    -fx-text-fill: #495057;
+    -fx-font-weight: bold;
+    -fx-border-color: #dee2e6;
+    -fx-border-width: 0 1 1 0;
+}
+
+.table-view .table-cell {
+    -fx-border-color: transparent transparent #dee2e6 transparent;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 8 12;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #e3f2fd;
+    -fx-text-fill: #1976d2;
+}
+
+/* Tree view styles */
+.tree-view {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.tree-view .tree-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #495057;
+    -fx-padding: 4 8;
+}
+
+.tree-view .tree-cell:selected {
+    -fx-background-color: #e3f2fd;
+    -fx-text-fill: #1976d2;
+}
+
+.tree-view .tree-cell:hover {
+    -fx-background-color: #f5f5f5;
+}
+
+/* Label styles */
+.label-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c5aa0;
+}
+
+.label-subtitle {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #495057;
+}
+
+.label-section {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #6c757d;
+}
+
+.label-muted {
+    -fx-text-fill: #6c757d;
+}
+
+/* Card styles */
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 8px;
+    -fx-border-color: #dee2e6;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 2);
+}
+
+.card-header {
+    -fx-background-color: #f8f9fa;
+    -fx-background-radius: 8 8 0 0;
+    -fx-border-color: #dee2e6;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 15 20;
+}
+
+.card-body {
+    -fx-padding: 20;
+}
+
+/* Alert styles */
+.alert {
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-padding: 12 16;
+    -fx-border-width: 1px;
+}
+
+.alert-info {
+    -fx-background-color: #d1ecf1;
+    -fx-border-color: #bee5eb;
+    -fx-text-fill: #0c5460;
+}
+
+.alert-success {
+    -fx-background-color: #d4edda;
+    -fx-border-color: #c3e6cb;
+    -fx-text-fill: #155724;
+}
+
+.alert-warning {
+    -fx-background-color: #fff3cd;
+    -fx-border-color: #ffeaa7;
+    -fx-text-fill: #856404;
+}
+
+.alert-danger {
+    -fx-background-color: #f8d7da;
+    -fx-border-color: #f5c6cb;
+    -fx-text-fill: #721c24;
+}
+
+/* Workflow state colors */
+.state-stocked {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+}
+
+.state-delivered {
+    -fx-background-color: #93C47D;
+    -fx-text-fill: white;
+}
+
+.state-returned {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+}
+
+.state-scrapped {
+    -fx-background-color: #ff0000;
+    -fx-text-fill: white;
+}
+
+.state-reported-broken {
+    -fx-background-color: #CD9323;
+    -fx-text-fill: white;
+}
+
+.state-returning {
+    -fx-background-color: #9FC5F8;
+    -fx-text-fill: black;
+}
+
+.state-arrived {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+}
+
+.state-repaired {
+    -fx-background-color: #F9CB9C;
+    -fx-text-fill: black;
+}
